@@ -1,0 +1,49 @@
+body{
+	background: linear-gradient(45deg ,#9f0ad4 , #22c3b6) !important;
+}
+.form-box{
+	width: 29%;
+	margin: 60px auto;
+	background: white;
+	padding: 40px 60px;
+	border-radius: 10px;
+
+}
+.form-box h1{
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+}
+.form-box form{
+	margin-top: 40px;
+}
+form .form-control,.button{
+	width: 60%,
+	background:transparent;
+	padding:10px;
+	display: block;
+	margin: 20px auto;
+	border: none;
+	border-bottom: 1px solid black;
+}
+.button{
+	width: 50%;
+	margin-top: 30px;
+	background: transparent;
+	border: none;
+	color: white;
+	/*text-transform: uppercase;*/
+	border-radius: 5px;
+	background: linear-gradient(45deg ,#27dbe9 , #e3e67d) !important; 
+	cursor: pointer;
+}
+ p{
+	text-align: center;
+	margin-right: 5px;
+	margin-top: 20px;
+}
+form .form-control,.button:focus{
+	outline: none;
+}
